@@ -1,4 +1,8 @@
 //игра разработаны для ардуино, при использовании экрана 240x320 и двух кнопок. Для взаимодействия с экраном использованы библиотеки adafruit
+#include <SPI.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_ILI9341.h>
+
 #define TFT_DC 9
 #define TFT_CS 10
 #define SCREEN_WIDTH 320
